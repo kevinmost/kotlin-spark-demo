@@ -24,16 +24,16 @@ pom.xml - The Apache POM file that builds and packages the sample
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>Nordic APIs Kotlin / Spark Sample</name>
+    <name>Spark Kotlin boilerplate</name>
     <url>http://nordicapis.com/building-apis-on-the-jvm-using-kotlin-and-spark-part-1/</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <kotlin.version>0.12.1218</kotlin.version>
+        <kotlin.version>1.0.0-beta-4584</kotlin.version>
     </properties>
 
     <build>
-        <sourceDirectory>${project.basedir}/src/main/kotlin</sourceDirectory>
+        <sourceDirectory>${project.basedir}/src/main/java</sourceDirectory>
 
         <plugins>
             <plugin>
